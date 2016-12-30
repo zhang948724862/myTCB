@@ -1,0 +1,12 @@
+requirejs.config({//从requires.js文件为根目录查找目标模块
+	paths:{
+		'app':'../app',
+		'lunbo':'app/lunbo',
+		'map':'app/map'
+	}
+})
+define(['lunbo','map'],function(lunbo,map){
+	lunbo()
+	map()
+	console.log(lunbo);
+})

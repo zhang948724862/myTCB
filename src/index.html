@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title></title>
+	<script src="js/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/shouye.css"/>
+	<link rel="stylesheet" type="text/css" href="css/shouyeajax.css"/>
+	<script src="js/Ajax.js"></script>
+	<script src="js/shouye.js"></script>
+    <script type="text/javascript" src="http://webapi.amap.com/maps?v=1.3&key=c804c7bb9b4e65fa80cad6fed34aa2f5"></script>
+    
+</head>
+<body>
+    <div class="wrp">
+     <nav>
+         <p><a href="###">北京</a></p>
+         <p>[切换城市] |</p>
+         <p>同城帮首页</p>
+       <ul>
+         <li><a href="###">登陆</a></li>
+         <li><a href="###">注册</a></li>
+         <li><a href="###">我的订单</a></li>
+         <li><a href="###">客服电话：4000-399-360</a></li>
+         <li><a class="aa" href="###">客户服务</a>
+         <li><a href="###">投诉建议</a></li>
+       </ul>
+     </nav>
+     <header>
+         <img src="imgs/img/logo.jpg">
+         <ul>
+         	<li><a href="###">二手良品</a><img src="imgs/img/1.png"></li>
+         	<li><a href="###">手机回收</a></li>
+         	<li><a href="###">手机维修</a></li>
+         	<li><a href="###">电脑维修</a></li>
+         	<li><a href="###">以旧换新</a></li>
+         	<li><a href="###">手试用机</a></li>
+         </ul>
+     </header>
+     <div class="tu">
+     	<div class="list">
+     		<img src="imgs/img/t01cbd49a7325cdfd98.jpg">
+     		<img src="imgs/img/t010687ec59a7961438.jpg">
+     		<img src="imgs/img/t011fee625d900a2ab9.jpg">
+     		<img src="imgs/img/t012ae47ddcd87d273f.jpg">
+     		<img src="imgs/img/t0195731ac7912b94f6.jpg">
+     	</div>
+     <div class="diem">
+     	<p><img src="imgs/img/shou.jpg"><span>修手机/Pad&nbsp;></span></p>
+     	<p><img src="imgs/img/dian.jpg"><span>修电脑&nbsp;&nbsp;></span></p>
+     	<p><img src="imgs/img/hu.jpg"><span>卖手机&nbsp;&nbsp;></span></p>
+     	<p><img src="imgs/img/zhuan.jpg"><span>买二手手机&nbsp;></span></p>
+     </div>
+    </div>
+    <div class="da">
+    	<div class="da-top">
+    	   <img src="imgs/img/t017f31635782611059.jpg">
+    	   <img src="imgs/img/t01dc8f9631026e7e17.jpg">
+    	   <img src="imgs/img/t012b0c32614bcdc13c.jpg">
+    	   <img src="imgs/img/t01fc1fd0e5522663ba.jpg">
+    	</div>
+    	<div class="da-center">
+    	   <p style="clear:both;">热门手机回收<span>查看更多》</span></p>
+    	</div>  	
+    	<div class="da-bottom">
+    		<a><img src="imgs/img/mianfei.jpg"></a>
+    		<a><img src="imgs/img/t01068fe5e76aa7e910.jpg"><p>苹果iPhone6</p></a>
+    		<a><img src="imgs/img/t01ddf19cbaa3a791b7.jpg"><p>苹果iPhone5s</p></a>
+    		<a><img src="imgs/img/t0154d371a550ee894f.jpg"><p>小米M4</p></a>
+    		<a><img src="imgs/img/t01078047308a85471c.jpg"><p>华为 Mate7</p></a>
+    		<a><img src="imgs/img/t01ddf19cbaa3a791b7.jpg"><p>魅族 MX5</p></a>
+    	</div>
+    	<div class="da-center">
+    	   <p>二手良品精选<span>查看更多》</span></p>
+    	</div>  	
+    	<div class="da-bottom">
+    		<a><img src="imgs/img/hij.jpg"></a>
+    		<a><img src="imgs/img/t01068fe5e76aa7e910.jpg"><p>三星GalaxyS7eoge gG350<br><span style="color:red;">￥4199</span></p></a>
+    		<a><img src="imgs/img/t01ddf19cbaa3a791b7.jpg"><p>苹果iPhone5s<br><span style="color:red;">￥1199</span></p></a>
+    		<a><img src="imgs/img/t0154d371a550ee894f.jpg"><p>努比亚nubia布拉格<br><span style="color:red;">￥1299</span></p></a>
+    		<a><img src="imgs/img/t01078047308a85471c.jpg"><p>三星Node3移动4G版<br><span style="color:red;">￥760</span></p></a>
+    		<a><img src="imgs/img/t01ddf19cbaa3a791b7.jpg"><p>360手机奇酷青春版<br><span style="color:red;">￥580</span></p></a>
+    	</div>
+    	<div class="da-center">
+    	   <p>到店维修</p>
+    	</div> 
+    </div> 
+    
+    <div class="yt">
+    	<div class="hy-left">
+    		<div class="nn">
+    		  <select name="" id="sels1">
+    		  	<option selected="selected">北京</option>
+    		  	<option>上海</option>
+    		  	<option>保定</option>
+    		  	<option>长春</option>
+    		  	<option>海南</option>
+    		  </select>
+    		  <select name="" id="sels2">
+    		  	<option selected="selected">选择区县</option>
+    		  	<option>上海</option>
+    		  	<option>保定</option>
+    		  	<option>长春</option>
+    		  	<option>海南</option>
+    		  </select>
+    		
+    		<div class="put">
+    		  	<input type="text" name="tt" id="tt" placeholder="请输入您的位置寻找商家" />
+    		  	<input type="button" name="" id="bb" value="搜索" />
+    		  		  
+    		</div>  
+    	</div>
+    
+    <div class="gt">
+    			<ul>
+    				<li><a href="###">默认排序</a></li>
+    			    <li><a href="###">按成交量</a></li>
+    			    <li><a href="###">按人气</a></li>
+    			    <li><a href="###">先行赔付</a></li>
+    			</ul>
+    		<p class="map1">地图模式</p>	
+    		
+    </div>
+    <ul class="uul"></ul> 
+         <div class="lie">
+     			<ul>
+     				<li>1</li>
+     				<li>2</li>
+     				<li>3</li>
+     				<li>4</li>
+     				<li>5</li>
+     				<li>6</li>
+     				<li>7</li>
+     				<li>8</li>
+     				<li>9</li>
+     				<li>10</li>
+     				<li>下一页</li>
+     			</ul>
+     		</div>
+    </div>
+  	
+  <div class="hy-right">
+  	<p>商家好评</p>
+  	<ul class="uul2">
+  		<li><p>1</p><img src="imgs/img/t01ac02fad9b0458ec4.jpg"><h4>联金城维修中心</h4><span>119768条评论</span></li>
+  		<li><p>2</p><img src="imgs/img/t017106a8e035ee20cd.jpg"><h4>顺通电脑维修</h4><span>109497条评论</span></li>
+  	    <li><p>3</p><img src="imgs/img/t01e711a21f9c1817ee.gif"><h4>盛宏科技CBO维修工作</h4><span>98564条评论</span></li>
+  	    <li><p>4</p><img src="imgs/img/t015485b0b3d73024ab.jpg"><h4>百佳电脑维修</h4><span>50647条评论</span></li>
+  	    <li><p>5</p><img src="imgs/img/t01d069a31e337772f6.gif"><h4>鸿翔科技（北京）有限</h4><span>31935条评论</span></li>
+  	    <li><p>6</p><img src="imgs/img/t01153761b9a9fa7548.jpg"><h4>北京开天科技维修中心</h4><span>14874条评论</span></li>
+  	    <li><p>7</p><img src="imgs/img/t01d393b539d5466914.gif"><h4>中信电脑维修</h4><span>12191条评论</span></li>
+  	    
+  	</ul>
+
+  </div>
+  
+  
+  
+  
+  </div>
+   
+   <div class="bao">
+   	 <div class="footer"> 
+    	<div class="foot">
+    		<img src="imgs/img/che (1).jpg">
+    		<ul>   		
+    		<li>购物指南</li><br>
+    		<li>购物流程</li><br>
+    		<li>用户注册</li><br>
+    		<li>帮助文档</li><br>
+    	</ul>
+    </div>	
+    <div class="foot">
+    		<img src="imgs/img/che (5).jpg">
+    		<ul>   		
+    		<li>支付方式</li><br>
+    		<li>在线支付</li><br>
+    		<li>当面付款</li>
+    	</ul>
+    </div>	
+    <div class="foot">
+    		<img src="imgs/img/che (4).jpg">
+    		<ul>   		
+    		<li>售后服务</li><br>
+    		<li>投诉建议</li>
+    	</ul>
+    </div>	
+    <div class="foot">
+    		<img src="imgs/img/che (3).jpg">
+    		<ul>   		
+    		<li>特色保障</li><br>
+    		<li>360担保</li>
+    	</ul>
+    </div>	
+    <div class="foot">
+    		<img src="imgs/img/che (2).jpg">
+    		<ul>   		
+    		<li>商家合作</li><br>
+    		<li style="color:#239bf8;font-size:14px">加盟同城帮</li>
+    	</ul>
+    </div>	
+  </div>
+  <div class="footer-bottom">
+  	<p>客服电话：400-399-600  <a>投诉建议</a> <a>网站地图</a></p>
+  	<p>Copyright@&nbsp;2005-2016&nbsp;360.Nc&nbsp;All&nbsp;Rights&nbsp;Reserved&nbsp;360安全中心</p>
+  	<p>京ICP备08010314号-19&nbsp;&nbsp;京公网安备110000000006号</p>
+  </div>
+  <img src="imgs/img/首页_11.png" class="a1">
+
+     
+<a href="#top" class="top" style="color:#999999">回顶部</a>
+  </div>
+       	
+         </div>
+    <div class='golbu'> 
+        <div id="container"> 
+            
+        </div>
+        <div id="colse">colse</div>
+    </div>
+    
+
+	</body>
+
+ 
+</html>

@@ -1,0 +1,58 @@
+ul,li{
+	list-style: none;
+}
+.huoqu{
+	margin-top:1rem;
+	width:100%;
+	overflow: hidden;
+}
+.huoqu>li{
+    overflow: hidden;
+    border-bottom:1px solid gray;
+    padding-bottom:2rem;
+    padding-top:1.5rem;
+}
+.div1{
+	width:15%;
+	float: left;
+	/*margin-left:1rem;*/
+	/*border:1px solid gray;*/
+}
+.div1>img{
+	width:100%;
+}
+.div2{
+	width:45%;
+	float: left;
+	margin-left:0.3rem ;
+	margin-top:0.5rem;
+	/*border:1px solid gray;*/
+}
+.div2>h4{
+margin-bottom:0.5rem;
+color:blue;
+}
+.div2>p{
+	line-height:1rem;
+	font-size: 12px;
+}
+.div3{
+	width:35%;
+	float: right;
+	margin-right:0.1rem;
+	/*margin-top:1rem;*/
+	/*border:1px solid gray;*/
+}
+.div3>p{
+	font-size:22px;
+	float: left;
+	color:orange;
+	font-weight: bold;
+	padding-top:1.5rem;
+}
+.div3>img{
+	width:40%;
+	height:3rem;
+	float: right;
+    /*padding-top: 1rem;*/    
+}	
